@@ -68,10 +68,10 @@ public class RegisternewuserPage extends BasePage
     {
         CnfpasswordTextbox.sendKeys(Cnfpwd);
     }
-     public void clickRegisterBtn()
-     {
-         registerBtn.click();
-     }
+     //public void clickRegisterBtn()
+     //{
+         //registerBtn.click();
+     //}
      public void maleRadioBtn()
      {
          maleRadioBtn.click();

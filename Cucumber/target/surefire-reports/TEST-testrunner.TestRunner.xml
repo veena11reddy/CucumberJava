@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="testrunner.TestRunner" time="12.695" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="testrunner.TestRunner" time="49.935" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.2.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,5 +64,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Login To nop commerce #1" name="verify login with valid credentials" time="12.695"/>
+  <testcase classname="Login To nop commerce #2" name="verify login with valid credentials #1" time="15.642"/>
+  <testcase classname="Login To nop commerce #2" name="verify login with valid credentials #2" time="11.467"/>
+  <testcase classname="Login To nop commerce #2" name="verify login with valid credentials #3" time="11.522"/>
+  <testcase classname="Register new user" name="verify user registeration by not entering data in all Mandatory field" time="11.304"/>
 </testsuite>

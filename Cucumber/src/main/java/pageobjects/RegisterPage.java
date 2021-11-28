@@ -16,7 +16,7 @@ public class RegisterPage extends BasePage
     @FindBy(id="Email-error") public WebElement Emailerrormsg;
     @FindBy(id="Password-error") public WebElement Passworderrormsg;
     @FindBy(id="ConfirmPassword-error") public WebElement CnfPasswderrormsg;
-    @FindBy(id="register-button") public WebElement registerBtn;
+    //@FindBy(id="register-button") public WebElement registerBtn;
 
     //Constructor
     public RegisterPage(WebDriver driver)
@@ -29,10 +29,10 @@ public class RegisterPage extends BasePage
     //actions
 
 
-    public void RegisterBtn()
-    {
-        registerBtn.click();
-    }
+    //public void RegisterBtn()
+    //{
+       // registerBtn.click();
+    //}
 
     public String getFirstnameerrormsg()
     {

@@ -105,7 +105,7 @@ public class StepDefinitions {
 
     @When("i click on Register button")
     public void i_click_on_register_button() {
-        BasePage.registerPage.RegisterBtn();
+        BasePage.homepage.clickRegisterbtn();
 
     }
 
@@ -229,7 +229,7 @@ public class StepDefinitions {
     public void itShouldSeeErrorMessagesForAllMandatoryField()
     {
 
-    }
+   }
 }
 
 

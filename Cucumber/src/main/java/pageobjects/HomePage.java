@@ -15,6 +15,7 @@ public class HomePage extends BasePage
     @FindBy(linkText = "Log in") public WebElement LoginLink;
     @FindBy(id="small-searchterms") public WebElement searchTextBox;
     @FindBy(className="search-box-button") public WebElement searchButton;
+    @FindBy(id="register-button") public WebElement Registerbtn;
 
 
 
@@ -60,6 +61,10 @@ public class HomePage extends BasePage
         searchButton.click();
     }
 
+    public void  clickRegisterbtn()
+    {
+        Registerbtn.click();
+    }
 
 }
 
